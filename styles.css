@@ -1,0 +1,32 @@
+*{
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+h2{
+    margin: 20px;
+    padding: 20px;
+}
+button{
+    margin: 10px;
+    padding: 10px;  
+    width: fit-content;
+    min-width: 450px;
+}
+#btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
